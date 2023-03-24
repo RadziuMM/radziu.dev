@@ -8,7 +8,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "nuxt": "^3.3.1"
+    "@nuxt/image-edge": "^1.0.0-27991759.1a5eea1",
+    "nuxt": "^3.3.1",
+    "vue-i18n": "^9.2.2"
   },
   "dependencies": {
     "sass": "^1.59.3"

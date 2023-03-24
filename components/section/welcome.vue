@@ -1,12 +1,22 @@
 <template>
   <section class="SectionWelcome">
-    <h1 class="SectionWelcome__header">Full Stack Developer</h1>
+    <h1 class="SectionWelcome__header">
+      {{ $t('welcome.title') }}
+    </h1>
     <div class="SectionWelcome__wrapper" id="WelcomeSection">
-      <img src="/img/welcome/welcome.svg" alt="" aria-hidden class="SectionWelcome__img"/>
+      <nuxt-img
+        class="SectionWelcome__img"
+        src="/img/welcome/welcome.svg"
+        alt=""
+        aria-hidden="true"
+        width="400"
+        height="240"
+      />
       <p class="SectionWelcome__text">
-        <span class="SectionWelcome__hi">Hi I'm Radziu.</span> <br />
-        Hi I'm Radziu.
-        I have been a full stack developer for some time now. This site is dedicated to my experience and skills
+        <span class="SectionWelcome__greeting">
+          {{ $t('welcome.greeting') }}
+        </span>
+        {{ $t('welcome.about') }}
       </p>
     </div>
   </section>
@@ -31,16 +41,17 @@
       color: white;
     }
 
-    &__hi {
+    &__greeting {
+      display: block;
       font-size: 2rem;
     }
 
     &__header {
-      text-align: center;
-      color: white;
-      font-size: 3rem;
       padding-bottom: 3rem;
+      font-size: 3rem;
+      color: white;
       text-transform: uppercase;
+      text-align: center;
     }
 
     @media  (min-width: 720px) {
@@ -55,9 +66,9 @@
       }
 
       &__text {
+        width: 300px;
         padding: 1rem;
         color: white;
-        width: 300px;
       }
     }
   }

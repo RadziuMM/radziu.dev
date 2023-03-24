@@ -7,13 +7,19 @@
           <div class="tech__title">{{ item.name }}</div>
           <ul class="tech__list">
             <li v-for="icon in item.stack" :key="icon.name" class="tech__item">
-              <img :src="icon.icon" :alt="icon.name" class="tech__icon">
+              <nuxt-img
+                class="tech__icon"
+                :src="icon.icon"
+                :alt="icon.name"
+                width="45"
+                height="45"
+                quality="80"
+                loading="lazy"
+              />
               <div class="tech__name">{{ icon.name }}</div>
             </li>
           </ul>
         </li>
-        <img src="" />
-      
       </ul>
     </div>
   </section>
@@ -24,56 +30,56 @@
     {
       name: 'Frontend',
       stack: [
-        { name: 'html', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg' },
-        { name: 'css', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg' },
-        { name: 'Sass', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg' },
-        { name: 'javaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-        { name: 'typeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
-        { name: 'vue.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg' },
-        { name: 'nuxt.js', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg' },
-        { name: 'graphQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/graphql/graphql-plain.svg' },
+        { name: 'html', icon: '/img/skills/html5.svg' },
+        { name: 'css', icon: '/img/skills/css3.svg' },
+        { name: 'Sass', icon: '/img/skills/sass.svg' },
+        { name: 'javaScript', icon: '/img/skills/javascript.svg' },
+        { name: 'typeScript', icon: '/img/skills/typescript.svg' },
+        { name: 'vue.js', icon: '/img/skills/vuejs.svg' },
+        { name: 'nuxt.js', icon: '/img/skills/nuxtjs.svg' },
+        { name: 'graphQL', icon: '/img/skills/graphql.svg' },
       ],
     },
     {
       name: 'Backend',
       stack: [
-        { name: 'node', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg' },
-        { name: 'javaScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
-        { name: 'typeScript', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
-        { name: 'php', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg' },
-        { name: 'nest', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg' },
-        { name: 'express', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg' },
-        { name: 'mongoDB', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg' },
-        { name: 'MySQL', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg' },
-        { name: 'Redis', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg' },
+        { name: 'node', icon: '/img/skills/nodejs.svg' },
+        { name: 'javaScript', icon: '/img/skills/javascript.svg' },
+        { name: 'typeScript', icon: '/img/skills/typescript.svg' },
+        { name: 'php', icon: '/img/skills/php.svg' },
+        { name: 'nest', icon: '/img/skills/nestjs.svg' },
+        { name: 'express', icon: '/img/skills/express.svg' },
+        { name: 'mongoDB', icon: '/img/skills/mongodb.svg' },
+        { name: 'MySQL', icon: '/img/skills/mysql.svg' },
+        { name: 'Redis', icon: '/img/skills/redis.svg' },
       ],
     },
     {
       name: 'Devops',
       stack: [
-        { name: 'linux', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg' },
-        { name: 'bash', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-plain.svg' },
-        { name: 'python', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
-        { name: 'docker', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg' },
-        { name: 'git', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
+        { name: 'linux', icon: '/img/skills/linux.svg' },
+        { name: 'bash', icon: '/img/skills/bash.svg' },
+        { name: 'python', icon: '/img/skills/python.svg' },
+        { name: 'docker', icon: '/img/skills/docker.svg' },
+        { name: 'git', icon: '/img/skills/git.svg' },
       ],
     },
     {
       name: 'Game development',
       stack: [
-        { name: 'unreal engine 5', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original-wordmark.svg' },
-        { name: 'unity', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original-wordmark.svg' },
-        { name: 'c++', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg' },
-        { name: 'c#', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg' },
+        { name: 'unreal engine 5', icon: '/img/skills/unrealengine.svg' },
+        { name: 'unity', icon: '/img/skills/unity.svg' },
+        { name: 'c++', icon: '/img/skills/cplusplus.svg' },
+        { name: 'c#', icon: '/img/skills/csharp.svg' },
       ],
     },
     {
       name: 'Projecet menagment',
       stack: [
-        { name: 'Scrum', icon: '/img/skills/scrum.png' },
-        { name: 'Jira', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original-wordmark.svg' },
-        { name: 'Confluence', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original-wordmark.svg' },
-        { name: 'Trello', icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg' },
+        { name: 'Scrum', icon: '/img/skills/scrum.webp' },
+        { name: 'Jira', icon: '/img/skills/jira.svg' },
+        { name: 'Confluence', icon: '/img/skills/confluence.svg' },
+        { name: 'Trello', icon: '/img/skills/trello.svg' },
       ],
     },
   ];

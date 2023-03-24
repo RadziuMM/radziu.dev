@@ -1,0 +1,11 @@
+{
+  "page": {
+    "title": "Radziu - Full Stack Developer",
+    "description": "The great computer wizard"
+  },
+  "welcome": {
+    "title": "Full Stack Developer",
+    "greeting": "Hi I'm Radziu.",
+    "about": "I have been a full stack developer for some time now. This site is dedicated to my experience and skills."
+  }
+}

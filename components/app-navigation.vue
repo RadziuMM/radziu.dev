@@ -1,11 +1,15 @@
 <template>
   <header class="AppNavigation">
     <div class="AppNavigation__bar">
-      <img
+      <nuxt-img
         class="AppNavigation__logo"
-        src="/img/logo.png"
+        src="/img/logo.webp"
         alt=""
-        aria-hidden
+        aria-hidden="true"
+        width="114"
+        height="128"
+        quality="80"
+        loading="lazy"
       />
 
       <AppMobileMenu ref="mobileMenu">
@@ -18,7 +22,7 @@
         </nav>
       </AppMobileMenu>
 
-      <button class="AppNavigation__button" @click="onClickMobileButton">
+      <button class="AppNavigation__button" @click="onClickMobileButton" aria-label="open menu" type="button">
         <div class="button__hamburger"></div>
       </button>
     </div>
@@ -52,7 +56,8 @@
     }
 
     &__logo {
-      height: 100%;
+      width: 3.5rem;
+      height: 4rem;
     }
 
     &__button {
