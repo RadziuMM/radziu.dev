@@ -49,5 +49,27 @@
       "date": "2022 - now",
       "description": "In my role as a programming mentor, I have had the pleasure of working with future programmers and testers of various nationalities. My work involves providing support and assistance in understanding programming issues and dealing with the difficulties they encounter while learning. My main tasks are to help design applications, write code, test, and advise on the choice of appropriate tools and technologies. In my work I focus on interactive learning, focusing on the individual needs of each mentee. I also strive to inspire and motivate further development. In my role as a programming mentor, I value interpersonal skills and empathy, which allows me to communicate effectively with my mentees. Through my work, I am able to help develop programming skills and prepare mentees for independent work as programmers or testers."
     }
+  },
+  "portfolio": {
+    "title": "My project's",
+    "description": "In this section I will show you samples of my code and some of my projects. If you are interested in gaining more information about my experience, I invite you to visit my profile on GitHub. There you will find more projects, including some that are not yet fully worked out.",
+    "list": {
+      "portfolio": {
+        "title": "Portfolio - Nuxt3",
+        "description": "This project was created using the Nuxt.js 3 framework, and I paid special attention to optimization and SEO to provide a fast and responsive user experience. I would like to bring to your attention that you are currently viewing the live version of this project - this page you are currently on is the project."
+      },
+      "discord_bot": {
+        "title": "Discord music/utility bot",
+        "description": "This project was originally created as a music bot for my Discord server, but over time it evolved into a multi-tasking bot to help manage the server. This project uses a number of interesting technologies, such as assigning user group access to specific commands, translating messages with the ability to add custom translations, and the functionality to listen to music from services such as YouTube, Spotify or songs searched by phrase."
+      },
+      "github": {
+        "title": "Github profile",
+        "description": "Here you will find my projects - both newer and older ones. I want to show you what projects I've managed to create over the course of my career as a programmer. Not all the projects you'll find here are perfect and 100% completed, but each of them shows the path I've taken and what I've learned. While working on these projects, I developed my programming skills, learned new technologies and tools, and learned how to create projects that follow best practices."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "If you are interested in collaborating, feel free to contact me. You can find me here:"
   }
 }

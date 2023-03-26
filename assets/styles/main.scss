@@ -45,6 +45,15 @@ html {
   }
 }
 
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 section {
   @include max-width;
   margin-bottom: 6rem;

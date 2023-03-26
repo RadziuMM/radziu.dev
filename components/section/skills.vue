@@ -104,7 +104,6 @@
 
     &__list {
       color: rgba(var(--color-base), 1);
-      list-style: none;
     }
 
     &__tech {
@@ -120,11 +119,9 @@
 
         &__list {
           padding: 1.5rem 1rem;
-          list-style: none;
           gap: 2rem;
           display: grid;
           grid-template-columns: 1fr 1fr 1fr;
-          // grid-template-rows: 1fr 2fr;
         }
 
         &__item {

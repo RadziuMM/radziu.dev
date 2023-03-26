@@ -65,10 +65,6 @@
 
 <style lang="scss">
   .SectionTechBackground {
-    &__list {
-      list-style: none;
-    }
-
     &__item {
       margin-bottom: 4rem;
     }

@@ -135,7 +135,6 @@
     &__nav {
       .nav {
         &__list {
-          list-style: none;
           margin: 0;
           padding: 1.5rem 1rem;
           font-size: 2rem;

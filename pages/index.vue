@@ -4,6 +4,8 @@
     <Section-About />
     <Section-Skills />
     <Section-Tech-Background />
+    <Section-Portfolio />
+    <Section-Contact />
   </main>
 </template>
 
