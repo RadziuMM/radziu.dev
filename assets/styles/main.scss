@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 1rem;
+  font-size: 16px;
   font-family: 'Oswald', sans-serif;
 
   background-color: rgba(var(--color-black), 0.915);
@@ -47,6 +47,6 @@ html {
 
 section {
   @include max-width;
-  margin-bottom: 96px;
-  padding: 16px;
+  margin-bottom: 6rem;
+  padding: 1rem;
 }

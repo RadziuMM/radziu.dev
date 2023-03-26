@@ -24,7 +24,7 @@
 
 <style lang="scss">
   .SectionWelcome {
-    padding-top: 8rem;
+    padding-top: 2rem;
 
     &__wrapper {
       display: flex;
@@ -50,6 +50,8 @@
     }
 
     @media (min-width: $breakpointTablet) {
+      padding-top: 8rem;
+
       &__wrapper {
         justify-content: space-evenly;
         flex-direction: row-reverse;
