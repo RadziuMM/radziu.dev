@@ -1,4 +1,12 @@
 {
+  "nav": {
+    "welcome": "Welcome",
+    "about": "Who am I?",
+    "skills": "Tech-Stack",
+    "tech_background": "Tech-Background",
+    "portfolio": "My project's",
+    "contact": "Contact Me"
+  },
   "page": {
     "title": "Radziu - Full Stack Developer",
     "description": "The great computer wizard"
@@ -7,5 +15,39 @@
     "title": "Full Stack Developer",
     "greeting": "Hi I'm Radziu.",
     "about": "I have been a full stack developer for some time now. This site is dedicated to my experience and skills."
+  },
+  "about": {
+    "who_am_i": "Who am I?",
+    "descritpion": "I am a full stack developer and a mentor at a major international bootcamp. I graduated with a degree in IT project management and am currently studying game development. In addition, I am interested in robotics and am a Linux enthusiast. My passion for technology and constant striving to improve my skills helps me to achieve better and better results in the IT industry."
+  },
+  "skills": {
+    "title": "My tech stack"
+  },
+  "tech": {
+    "title": "Technical background",
+    "itpm": {
+      "name": "IT Project Management - Collegium Da Vinci",
+      "type": "Studies",
+      "date": "2019 - 2022",
+      "description": "During my studies, I gained knowledge and skills in planning, monitoring and controlling IT projects, including human resources, financial, time and risk management.I also learned how to effectively communicate with project team members, clients and other stakeholders.I learned about the tools and technologies used in an IT project, such as Agile, Scrum, Kanban methodologies, as well as project management tools such as JIRA, Trello and Asana."
+    },
+    "game_dev": {
+      "name": "Game Development - Collegium Da Vinci",
+      "type": "Studies",
+      "date": "2022 - now",
+      "description": "The study is focused on the practical teaching of computer game development.Thanks to the study, I developed skills in working with Unity and Unreal Engine tools, and learned about game development processes such as game design, graphics, sound and animation. I also had the opportunity to work with c++ and c# languages."
+    },
+    "kysune": {
+      "name": "Kysune",
+      "type": "Job - Full Stack Developer",
+      "date": "2021 - now",
+      "description": "As a Full Stack Developer, I have had the pleasure of working on many projects for both domestic and international clients. Throughout my career, I have worked in multi-person teams, where I have had the opportunity to be responsible for client communication, solution design and software development, up to the actual release and maintenance of the application/software.In my work, I mainly used programming languages such as Javascript and Typescript and frameworks such as Vue/Nuxt and Nest.js. Using these technologies enabled me to create responsive and scalable web applications and complex information systems.With my experience as a Full Stack Developer, I am able to provide comprehensive solutions for a variety of business needs. I also have project management skills, which allows me to successfully carry out projects from concept to implementation."
+    },
+    "goit": {
+      "name": "GoIT",
+      "type": "Job - Mentor",
+      "date": "2022 - now",
+      "description": "In my role as a programming mentor, I have had the pleasure of working with future programmers and testers of various nationalities. My work involves providing support and assistance in understanding programming issues and dealing with the difficulties they encounter while learning. My main tasks are to help design applications, write code, test, and advise on the choice of appropriate tools and technologies. In my work I focus on interactive learning, focusing on the individual needs of each mentee. I also strive to inspire and motivate further development. In my role as a programming mentor, I value interpersonal skills and empathy, which allows me to communicate effectively with my mentees. Through my work, I am able to help develop programming skills and prepare mentees for independent work as programmers or testers."
+    }
   }
 }

@@ -27,10 +27,10 @@
     height: 100vh;
 
     transform: translateX(-100%);
-    transition: .3s;
+    transition: 0.3s;
 
-    background: rgba(32, 71, 56, 0.24);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    background: rgba(var(--color-primary), 0.11);
+    box-shadow: 0 4px 30px rgba(var(--color-black), 0.1);
     backdrop-filter: blur(3.3px);
     -webkit-backdrop-filter: blur(7.3px);
 

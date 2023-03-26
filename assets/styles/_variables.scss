@@ -1,0 +1,18 @@
+$breakpointTablet: 768px;
+$breakpointDesktop: 1024px;
+$breakpointLargeDesktop: 1440px;
+
+:root {
+  --color-base: 255, 255, 255;
+  --color-black: 0, 0, 0;
+  --color-primary: 28, 141, 86;
+  --color-secondary: 5, 54, 26;
+  --color-tertiary: 85, 203, 65;
+}
+
+
+@mixin max-width {
+  max-width: $breakpointLargeDesktop;
+  width: 100%;
+  margin: 0 auto;
+}

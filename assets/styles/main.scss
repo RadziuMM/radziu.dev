@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+  font-family: 'Oswald', sans-serif;
+
+  background-color: rgba(var(--color-black), 0.915);
+  background-image: url('/img/green-gradient.svg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 62.5rem auto; 
+  background-position: 100% 0;
+
+  scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    width: .525rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(var(--color-primary), 0.5);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(var(--color-primary), 0.8);
+    
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(var(--color-primary), 1);
+  }
+
+  @media (min-width: $breakpointTablet) {
+    background-size: 81.25rem auto; 
+    background-position: 100% 0;
+  }
+
+  @media (min-width: $breakpointDesktop) {
+    background-size: 125rem;
+  }
+}
+
+section {
+  @include max-width;
+  margin-bottom: 96px;
+  padding: 16px;
+}

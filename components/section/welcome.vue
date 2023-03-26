@@ -1,9 +1,9 @@
 <template>
   <section class="SectionWelcome">
-    <h1 class="SectionWelcome__header">
+    <AppHeading id="WelcomeSection" element="h1">
       {{ $t('welcome.title') }}
-    </h1>
-    <div class="SectionWelcome__wrapper" id="WelcomeSection">
+    </AppHeading>
+    <div class="SectionWelcome__wrapper">
       <nuxt-img
         class="SectionWelcome__img"
         src="/img/welcome/welcome.svg"
@@ -24,6 +24,8 @@
 
 <style lang="scss">
   .SectionWelcome {
+    padding-top: 8rem;
+
     &__wrapper {
       display: flex;
       justify-content: center;
@@ -34,11 +36,12 @@
     &__img {
       height: auto;
       width: 80vw;
+      max-width: 25rem;
     }
 
     &__text {
       padding: 1rem;
-      color: white;
+      color: rgba(var(--color-base), 1);
     }
 
     &__greeting {
@@ -46,29 +49,17 @@
       font-size: 2rem;
     }
 
-    &__header {
-      padding-bottom: 3rem;
-      font-size: 3rem;
-      color: white;
-      text-transform: uppercase;
-      text-align: center;
-    }
-
-    @media  (min-width: 720px) {
+    @media (min-width: $breakpointTablet) {
       &__wrapper {
         justify-content: space-evenly;
         flex-direction: row-reverse;
         flex-wrap: nowrap;
       }
 
-      &__img {
-        width: 400px;
-      }
-
       &__text {
         width: 300px;
         padding: 1rem;
-        color: white;
+        color: rgba(var(--color-base), 1);
       }
     }
   }

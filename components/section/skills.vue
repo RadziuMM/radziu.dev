@@ -1,7 +1,9 @@
 <template>
   <section class="SectionSkills">
-    <div class="SectionSkills__wrapper" id="SkillsSection">
-      <h2 class="SectionSkills__title">Skills</h2>
+    <div class="SectionSkills__wrapper">
+      <AppHeading id="SkillsSection" element="h2">
+        {{ $t('skills.title') }}
+      </AppHeading>
       <ul class="SectionSkills__list">
         <li v-for="item in list" :key="item.name" class="SectionSkills__tech">
           <div class="tech__title">{{ item.name }}</div>
@@ -74,7 +76,7 @@
       ],
     },
     {
-      name: 'Projecet menagment',
+      name: 'Project management',
       stack: [
         { name: 'Scrum', icon: '/img/skills/scrum.webp' },
         { name: 'Jira', icon: '/img/skills/jira.svg' },
@@ -94,22 +96,24 @@
     }
 
     &__title {
-      font-size: 2.5rem;
-      color: white;
+      font-size: 2rem;
+      color: rgba(var(--color-base), 1);
       text-align: center;
       text-transform: uppercase;
     }
 
     &__list {
-      color: white;
+      color: rgba(var(--color-base), 1);
       list-style: none;
     }
 
     &__tech {
+      margin-bottom: 1rem;
+
       .tech {
         &__title {
           font-size: 1.5rem;
-          border-bottom: .3rem solid white;
+          border-bottom: .3rem solid rgba(var(--color-base), 1);
           padding: 0 0 0 .5rem;
           text-transform: uppercase;
         }
@@ -117,10 +121,10 @@
         &__list {
           padding: 1.5rem 1rem;
           list-style: none;
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
           gap: 2rem;
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          // grid-template-rows: 1fr 2fr;
         }
 
         &__item {
@@ -131,14 +135,36 @@
         }
 
         &__icon {
-          height: 45px;
-          filter: drop-shadow(0px 0px 40px #2ea065);
-          // filter: drop-shadow(0px 0px 1px #000);
+          height: 2.8125rem;
         }
 
         &__name {
           padding-top: .2rem;
           text-transform: uppercase;          
+        }
+      }
+    }
+
+    @media (min-width: $breakpointTablet) {
+      &__tech {
+        margin-bottom: 2rem;
+
+        .tech {
+          &__list {
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+          }
+        }
+      }
+    }
+
+    @media (min-width: $breakpointDesktop) {
+      &__tech {
+        margin-bottom: 4rem;
+
+        .tech {
+          &__list {
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          }
         }
       }
     }
