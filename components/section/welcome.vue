@@ -11,6 +11,7 @@
         aria-hidden="true"
         width="576"
         height="346"
+        sizes="sm:90vw md:90vw lg:576px"
       />
       <p class="SectionWelcome__text">
         <span class="SectionWelcome__greeting">
