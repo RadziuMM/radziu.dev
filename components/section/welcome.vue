@@ -9,8 +9,8 @@
         src="/img/welcome/welcome.webp"
         alt=""
         aria-hidden="true"
-        width="400"
-        height="240"
+        width="576"
+        height="346"
       />
       <p class="SectionWelcome__text">
         <span class="SectionWelcome__greeting">
