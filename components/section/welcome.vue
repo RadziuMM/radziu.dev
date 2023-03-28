@@ -6,7 +6,7 @@
     <div class="SectionWelcome__wrapper">
       <nuxt-img
         class="SectionWelcome__img"
-        src="/img/welcome/welcome.svg"
+        src="/img/welcome/welcome.webp"
         alt=""
         aria-hidden="true"
         width="400"
