@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+:root {
+  --color-base: 255, 255, 255;
+  --color-black: 0, 0, 0;
+  --color-primary: 28, 141, 86;
+  --color-secondary: 5, 54, 26;
+  --color-tertiary: 85, 203, 65;
+}
+
 * {
   margin: 0;
   padding: 0;
