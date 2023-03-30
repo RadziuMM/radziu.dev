@@ -71,5 +71,8 @@
   "contact": {
     "title": "Contact me",
     "description": "If you are interested in collaborating, feel free to contact me. You can find me here:"
+  },
+  "footer": {
+    "label": "&#169; {year} radziu.dev"
   }
 }

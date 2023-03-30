@@ -156,11 +156,13 @@
 
     @media (min-width: $breakpointDesktop) {
       &__tech {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
 
         .tech {
           &__list {
+            margin-top: 2rem;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            gap: 6rem 0;
           }
         }
       }
